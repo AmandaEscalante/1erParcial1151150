@@ -21,24 +21,16 @@ nav p {
     color: #fff;
 }
 
-article li {
-    color: #00F;
+section {
+    float: left;
+    width: 70%;
 }
-
-article li strong {
-    color: #000;
-}
-
 aside {
     float: left;
     width: 30%;
     clear: both;
 }
 
-#Modelocero{
-    float: left;
-    width: 50%;
-}
 #Modelo1{
     float: left;
     width: 50%;
