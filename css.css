@@ -1,0 +1,50 @@
+h1 {
+    color: #000000;
+    
+}
+
+h1,img {
+    color: #000000;
+    display: inline-block;
+}
+
+img {
+   float: left;
+   width: 80px; height: 80px;
+
+}
+nav p {
+    font-family: Arial;
+    font-size: 11px;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+}
+
+article li {
+    color: #00F;
+}
+
+article li strong {
+    color: #000;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    clear: both;
+}
+
+#Modelocero{
+    float: left;
+    width: 50%;
+}
+#Modelo1{
+    float: left;
+    width: 50%;
+}
+
+#MVC {
+    float: left;
+    width: 50%;
+}
