@@ -38,37 +38,50 @@ nav ul li a:hover{
 section {
     float: left;
     width: 70%;
+    padding-block: 5px;
+    text-align: justify;
+    margin-right: auto;
 }
 aside {
     float: left;
     width: 30%;
     clear: both;
+    padding-block: 5px;
+    text-align: justify;
+    margin-right: auto;
+     
+}
+#imagen {
+    float: none;
+    width: 400px; height: 200px;
+ 
 }
 
-#Modelo1{
+#texto {
+    float: none;
+    margin: auto;
+    padding: 15px;
+
+}
+
+#Modelos{
+    
+    width: 50%;
+    display: table-cell;
+}
+
+#arquitecturas-web {
+    
+    width: 50%;
+    display: table-cell;
+}
+
+#Ajax{
     float: left;
     width: 50%;
 }
 
-#MVC {
+#SPA {
     float: left;
     width: 50%;
-}
-
-#imagen1{
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-
-#imagen2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#imagen3{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }

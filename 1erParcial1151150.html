@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no">
     <title><em> Primer Parcial de Programación WEB</em> </title> 
     <link rel="stylesheet" type="text/css" href="css.css"/>
+</head>
+<body>
     <div>
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/UFPS_Logo.png">
         <h1>Arquitecturas WEB</h1>
@@ -17,11 +19,11 @@
             <li><a href="#contactenos">CONTACTENOS</a></li>
         </ul>
     </nav>
+
     <aside>
-        <h2> El Modelo cero y el código spaguetti </h2>
-        <img id="imagen1" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSpagetti.png">
-        <p>Soluciones iniciales cliente/servidor en las que tenemos
-        una página JSP/ASP/PHP que se conecta a una base de
+        <h2 id="arquitecturas"> El Modelo cero y el código spaguetti </h2>
+        <img id="imagen" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSpagetti.png">
+        <p id="texto">Soluciones iniciales cliente/servidor en las que tenemos una página JSP/ASP/PHP que se conecta a una base de
         datos y genera un nuevo contenido html. Es código
         spaguetti, el que nadie quiere tener que pero que en su
         momento se usó mucho. A día de hoy lo puedes
@@ -31,10 +33,10 @@
         capacidad de reutilización.</p>
     </aside>
     <section>
-    <article id="Modelo1">
-        <h2> El Modelo 1 </h2>
-        <img id="imagen2" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebModelo1-2.png">
-        <p>Este fue un salto importante , promueve la modularización
+    <article id="arquitecturas-web">
+        <h2 id="arquitecturas"> El Modelo 1 </h2>
+        <img id="imagen" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebModelo1-2.png">
+        <p id="texto">Este fue un salto importante , promueve la modularización
             y el uso de componentes a través de la programación
             orientada a objeto. Fue desde mi punto de vista un gran
             salto. Hay enfoques tipo Rails que se apoyaron más en un
@@ -43,10 +45,10 @@
             generar componentes en la capa de backend y aumentar la
             reutilización de esa parte.</p>
     </article>
-    <article id="MVC">
-        <h2> El modelo 2 (MVC) </h2>
-        <img id="imagen3" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebModelo2-2.png">
-        <p>Quizás para mucha gente el modelo más importante, se
+    <article id="arquitecturas-web">
+        <h2 id="arquitecturas"> El modelo 2 (MVC) </h2>
+        <img id="imagen" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebModelo2-2.png">
+        <p id="texto">Quizás para mucha gente el modelo más importante, se
             apuesta por la separación de responsabilidades entre
             Vista, Controlador y Modelo. Prácticamente todos los
             frameworks web han implementado este enfoque de una
@@ -55,8 +57,76 @@
     </article>
     </section>
       
-    </nav>
-</head>
-<body>
+    <aside>
+        <h2 id="arquitecturas"> El Modelo FrontController /Enrutador </h2>
+        <img id="imagen" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebModeloMVC2-1.png">
+        <p id="texto">Una
+            evolución importante del modelo MVC fue el modelo
+            MVC 2 o de FrontController que apuesta por una
+            arquitectura en la que únicamente hay un controlador
+            principal y gestiona todo a través de acciones Esta es un
+            poco la idea de muchos de los frameworks modernos con
+            el concepto de router en la capa de presentación El
+            enfoque más clásico puede ser Struts en el lado del
+            servidor o Spring MVC. </p>
+    </aside>
+    <section>
+    <article id="arquitecturas-web">
+        <h2 id="arquitecturas"> Arquitecturas Web y Ajax </h2>
+        <img id="imagen" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebAjax-1.png">
+        <p id="texto">Hasta ese momento todas las evoluciones se produjeron
+            del lado del servidor El lado cliente tenía pocas
+            novedades Es en esta situación cuando surge AJAX como
+            tecnología para mejorar el rendimiento entre cliente y
+            servidor Esto supuso una verdadera revolución a la forma
+            de programar</p>
+    </article>
+    <article id="arquitecturas-web">
+        <h2 id="arquitecturas"> Arquitecturas Web y SPA </h2>
+        <img id="imagen" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSPASimple.png">
+        <p id="texto">Quizás para mucha gente el modelo más importante, se
+            apuesta por la separación de responsabilidades entre
+            Vista, Controlador y Modelo. Prácticamente todos los
+            frameworks web han implementado este enfoque de una
+            forma u otra. Ejemplos son: Struts en Java , ASP.NET en
+            Microsoft o Laravel en PHP.</p>
+    </article>
+    </section>
+
+    <aside>
+        <h2 id="arquitecturas-web"> El Modelo FrontController /Enrutador </h2>
+        <img id="imagen" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSPA2.png">
+        <p id="texto">Una
+            Poco a poco el lado cliente comienza a tener más peso en los desarrollos y se necesita organizar mejor el código de
+            JavaScript Aparecen los primeros frameworks MVC de
+            cliente como Backbone js que permiten dividir las
+            responsabilidades de la misma forma que en el servidor </p>
+    </aside>
+    <section>
+    <article id="arquitecturas-web">
+        <h2 id="arquitecturas"> SPA MVC y uso de componentes </h2>
+        <img id="imagen" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSPAComponentes-2.png">
+        <p id="texto">Estas
+            arquitecturas empiezan a madurar rápidamente y
+            aparecen tecnologías como Angular js que promueve el
+            uso del modelo MVC y la utilización de componentes en
+            capa de presentación Aparecen librerías
+            complementarias como React que se centran en estos
+            últimos</p>
+    </article>
+    <article id="arquitecturas-web">
+        <h2 id="arquitecturas"> Arquitecturas Web Isomórficas </h2>
+        <img id="imagen" src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebIsomorfica.png">
+        <p id="texto">Ahora
+            mismo estamos entrando en otra fase comienza a
+            llegar el JavaScript Isomórfico Si nos fijamos en el último
+            diagrama la parte cliente y la parte servidor son muy
+            parecidas ¿Qué sucedería en el caso de que ambas partes
+            estuvieran implementadas en JavaScript? Pues que
+            probablemente mucho código se podría compartir y según
+            se ejecutara la aplicación en cliente o en servidor el
+            comportamiento variaría</p>
+    </article>
+    </section>
 </body>
 </html>
